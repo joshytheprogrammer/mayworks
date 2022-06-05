@@ -41,6 +41,14 @@ export default {
     baseURL: '/',
   },
 
+  styleResources: {
+    scss: [
+      '@/assets/scss/app.scss',
+      '@/assets/scss/mixins.scss'
+    ],
+    hoistUseStatements: true,
+  },
+  
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
 }
