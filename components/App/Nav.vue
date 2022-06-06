@@ -1,30 +1,38 @@
 <template>
-  <div class="navbar">
+  <nav class="navbar">
+    <!-- The Logo Section -->
     <div class="logo">
       <NuxtLink to="/">
         <img src="../../assets/images/mayworks-logo.png" alt="Mayworks Logo">
       </NuxtLink>
     </div>
+    <!-- The Menu Section -->
     <div class="menu">
+      <!-- For Phones -->
       <div class="mobile" v-if="isMobile">
-        <Menu />
+        <MenuIcon @click="toggleMenu" />
+        <Menu v-if="isOpen" />
       </div>
+      <!-- For Desktops -->
       <div class="desktop" v-else>
         <Menu />
       </div>
     </div>
-  </div>
+  </nav>
 </template>
 
 <script>
+import { MenuIcon } from '@vue-hero-icons/outline'
 import Menu from "./Menu.vue"
 export default {
   components: {
-    Menu
+    Menu,
+    MenuIcon
   },
   data(){
     return {
-      isMobile: ''
+      isMobile: '',
+      isOpen: false,
     }
   },
   mounted() {
@@ -38,6 +46,9 @@ export default {
     checkMobile() {
       window.innerWidth >= 768 ? this.isMobile = false : this.isMobile = true
       // console.log(this.isMobile)
+    },
+    toggleMenu(){
+      this.isOpen = !this.isOpen
     }
   },
 }
