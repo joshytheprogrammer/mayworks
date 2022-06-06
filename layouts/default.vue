@@ -1,7 +1,7 @@
 <template>
   <div class="app">
     <Nav />
-    <Nuxt />
+    <div class="body"><Nuxt /></div>
     <Footer />
   </div>
 </template>
@@ -18,5 +18,7 @@ export default {
 </script>
 
 <style>
-
+.body {
+  margin-top: 100px;
+}
 </style>

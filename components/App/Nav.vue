@@ -61,6 +61,11 @@ export default {
 <style lang="scss" scoped>
 nav {
   padding: 14px 8px;
+  position: absolute;
+  top: 0;
+  z-index: 12;
+  width: 100%;
+  background: $light;
 
   .navbar {
     display: flex;
