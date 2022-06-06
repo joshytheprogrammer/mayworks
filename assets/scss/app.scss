@@ -1,3 +1,16 @@
-// $primary: #000;
-// $light: #000;
-// $dark: #000;
+// COLORS
+$dark: #000500ff;
+$light: #fefcfbff;
+$primary: #0353a4ff;
+$danger: #d62246ff;
+$success: #23ce6bff;
+
+// SIZES
+$small: 728px;
+$mediumDesktop: 900px;
+
+html,
+body {
+  background: $light;
+  overflow-x: hidden;  
+}
