@@ -1,22 +1,26 @@
 <template>
-  <nav class="navbar">
-    <!-- The Logo Section -->
-    <div class="logo">
-      <NuxtLink to="/">
-        <img src="../../assets/images/mayworks-logo.png" alt="Mayworks Logo">
-      </NuxtLink>
+  <nav>
+    <div class="navbar">
+      <!-- The Logo Section -->
+      <div class="logo">
+        <NuxtLink to="/">
+          <img src="../../assets/images/mayworks-logo.png" alt="Mayworks Logo">
+        </NuxtLink>
+      </div>
+      <!-- The Menu Section -->
+      <div class="menu">
+        <!-- For Phones -->
+        <div class="mobile" v-if="isMobile">
+          <MenuIcon @click="toggleMenu" />
+        </div>
+        <!-- For Desktops -->
+        <div class="desktop" v-else>
+          <Menu />
+        </div>
+      </div>
     </div>
-    <!-- The Menu Section -->
-    <div class="menu">
-      <!-- For Phones -->
-      <div class="mobile" v-if="isMobile">
-        <MenuIcon @click="toggleMenu" />
-        <Menu v-if="isOpen" />
-      </div>
-      <!-- For Desktops -->
-      <div class="desktop" v-else>
-        <Menu />
-      </div>
+    <div class="menuItems" v-if="isMobile && isOpen">
+      <Menu />
     </div>
   </nav>
 </template>
@@ -55,9 +59,23 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.navbar {
-  .logo {
+nav {
+  padding: 14px 8px;
 
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 72px;
+
+    .logo {
+      width: 72px;
+      
+      img {
+        width: 100%;
+        height: 72px;
+      }
+    }
   }
 }
 </style>
