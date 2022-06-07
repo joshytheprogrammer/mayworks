@@ -1,23 +1,20 @@
 <template>
-  <div>
-    <h1>Hello World</h1>
+  <div class="home">
+    <Jumbotron />
   </div>
 </template>
 
 <script>
+import Jumbotron from "~/components/Home/Jumbotron.vue"
 export default {
-  name: 'IndexPage',
+  components: {
+    Jumbotron
+  }
 }
 </script>
 
 <style lang="scss" scoped>
-div {
-  background-image: url("");
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  object-fit: fill;
-  height: 1500px;
-  max-width: 100%;
-  color: $light;
+.home {
+  
 }
 </style>

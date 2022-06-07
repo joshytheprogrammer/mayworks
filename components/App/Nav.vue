@@ -11,7 +11,9 @@
       <div class="menu">
         <!-- For Phones -->
         <div class="mobile" v-if="isMobile">
-          <MenuIcon @click="toggleMenu" />
+          <XCircleIcon v-if="isOpen" @click="toggleMenu" />
+          <MenuIcon v-else @click="toggleMenu" />
+         
         </div>
         <!-- For Desktops -->
         <div class="desktop" v-else>
@@ -26,12 +28,13 @@
 </template>
 
 <script>
-import { MenuIcon } from '@vue-hero-icons/outline'
+import { MenuIcon, XCircleIcon } from '@vue-hero-icons/outline'
 import Menu from "./Menu.vue"
 export default {
   components: {
     Menu,
-    MenuIcon
+    MenuIcon,
+    XCircleIcon
   },
   data(){
     return {
@@ -48,7 +51,7 @@ export default {
   },
   methods: {
     checkMobile() {
-      window.innerWidth >= 768 ? this.isMobile = false : this.isMobile = true
+      window.innerWidth > 768 ? this.isMobile = false : this.isMobile = true
       // console.log(this.isMobile)
     },
     toggleMenu(){
