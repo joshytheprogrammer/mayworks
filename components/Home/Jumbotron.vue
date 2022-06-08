@@ -30,7 +30,8 @@ export default {
   justify-content: center;
 
   h1 {
-    font-size: 36px;
+    font-weight: 500;
+    font-size: 40px;
     padding: 1rem 0;
   }
 
@@ -51,7 +52,6 @@ export default {
     &:hover {
       background: $primary;
       color: $light;
-
     }
   }
 
