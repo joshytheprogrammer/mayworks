@@ -31,7 +31,7 @@ export default {
 
   h1 {
     font-weight: 500;
-    font-size: 40px;
+    font-size: 48px;
     padding: 1rem 0;
   }
 
