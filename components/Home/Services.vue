@@ -4,7 +4,7 @@
     <p class="_s_desc">We have made quality our habit. We provide a wide range of services, but they can all be summed up into this one phrase, "HELP YOU".  We strive to satisfy your business needs. Here are just a few things we do:</p>
     <div class="content">
       <div class="card">
-        <img src="https://images.unsplash.com/photo-1592963219838-6045ccbe0563" alt="">
+        <img src="https://images.unsplash.com/photo-1592963219838-6045ccbe0563" loading="lazy" alt="">
         <div class="details">
           <h2>Export</h2>
           <p>We export minerals to several countries in the west. These minerals include Zinc, Lead, Charcoal. We have an excellent track record and are trusted by many firms.</p>
@@ -12,7 +12,7 @@
         </div>
       </div>
       <div class="card">
-        <img src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b" alt="">
+        <img src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b" loading="lazy" alt="">
         <div class="details">
           <h2>Web Design</h2>
           <p>We partner with several web developers to help our clients build apps as quickly and as cost efficiently as possible. We help build all manner of Applications.</p>
@@ -20,7 +20,7 @@
         </div>
       </div>
       <div class="card">
-        <img src="https://images.unsplash.com/photo-1521791136064-7986c2920216" alt="">
+        <img src="https://images.unsplash.com/photo-1521791136064-7986c2920216" loading="lazy" alt="">
         <div class="details">
           <h2>Contracts</h2>
           <p>We assist companies and governments to solve their problems quickly. Our trust worthy name makes us the choice contractor for NPA, MTN and many more.</p>
@@ -60,16 +60,16 @@ export default {
   }
 
   .content {
-    display: flex;
-    justify-content: space-evenly;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
 
     .card {
-      max-width: 400px;
       padding: 1rem;
 
       img {
         width: 100%;
-        
+        height: 100%;
         object-fit: contain;
       }
 
