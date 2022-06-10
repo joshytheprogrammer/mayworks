@@ -1,33 +1,18 @@
 <template>
   <div class="card">
-    <img src="https://images.unsplash.com/photo-1521791136064-7986c2920216" loading="lazy" alt="">
+    <img :src="data.imgLink" loading="lazy" :alt="data.service + ' image on mayworks'">
     <div class="details">
-      <h2>Contracts</h2>
-      <p>We assist companies and governments to solve their problems quickly. Our trust worthy name makes us the choice contractor for NPA, MTN and many more.</p>
+      <h2>{{data.service}}</h2>
+      <p>{{data.desc}}</p>
       <button>Contact us</button>
+      <!-- Be sure to turn button into a link that leads to mayworks email -->
     </div>
   </div>
-  <!-- <div class="card">
-        <img src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b" loading="lazy" alt="">
-        <div class="details">
-          <h2>Export</h2>
-          <p>We export minerals to several countries in the west. These minerals include Zinc, Lead, Charcoal. We have an excellent track record and are trusted by many firms.</p>
-          <button>Contact us</button>
-        </div>
-      </div>
-      <div class="card">
-        <img src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b" loading="lazy" alt="">
-        <div class="details">
-          <h2>Web Design</h2>
-          <p>We partner with several web developers to help our clients build apps as quickly and as cost efficiently as possible. We help build all manner of Applications.</p>
-          <button>Contact us</button>
-        </div>
-      </div> -->
 </template>
 
 <script>
 export default {
-
+  props: ['data']
 }
 </script>
 
@@ -65,5 +50,10 @@ export default {
       border-radius: 4px;
     }
   }
+
+  @media screen and (max-width: $m-large) {
+    margin: 2rem 0;
+  }
+
 }
 </style>

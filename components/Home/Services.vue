@@ -3,7 +3,7 @@
     <h2>Quality, not quantity</h2>
     <p>We have made quality our habit. We provide a wide range of services, but they can all be summed up into this one phrase, "HELP YOU".  We strive to satisfy your business needs. Here are just a few things we do:</p>
     <div class="content">
-      <Card  />
+      <Card v-for="item in data" :key="item.id" :data="item"  />
     </div>
   </section>
 </template>
@@ -13,8 +13,32 @@ import Card from "../Helpers/S-Card.vue"
 export default {
   components: {
     Card,
+  },
+  data() {
+    return {
+      data: [
+        {
+          id: 0,
+          imgLink: 'https://images.unsplash.com/photo-1592963219838-6045ccbe0563',
+          service: 'Export',
+          desc: 'We export minerals to several countries in the west. These minerals include Zinc, Lead, Charcoal. We have an excellent track record and are trusted by many firms.'
+        },
+        {
+          id: 1,
+          imgLink: 'https://images.unsplash.com/photo-1488590528505-98d2b5aba04b',
+          service: 'Web Design',
+          desc: 'We partner with several web developers to help our clients build apps as quickly and as cost efficiently as possible. We help build all manner of Applications.'
+        },
+        {
+          id: 2,
+          imgLink: 'https://images.unsplash.com/photo-1521791136064-7986c2920216',
+          service: 'Contracts',
+          desc: 'We assist companies and governments to solve their problems quickly. Our trust worthy name makes us the choice contractor for NPA, MTN and many more.'
+        },
+      ]
+    }
   }
-}
+} 
 </script>
 
 <style lang="scss" scoped>
