@@ -1,39 +1,19 @@
 <template>
   <section class="services">
-    <h2 class="_s_head">Quality, not quantity</h2>
-    <p class="_s_desc">We have made quality our habit. We provide a wide range of services, but they can all be summed up into this one phrase, "HELP YOU".  We strive to satisfy your business needs. Here are just a few things we do:</p>
+    <h2>Quality, not quantity</h2>
+    <p>We have made quality our habit. We provide a wide range of services, but they can all be summed up into this one phrase, "HELP YOU".  We strive to satisfy your business needs. Here are just a few things we do:</p>
     <div class="content">
-      <div class="card">
-        <img src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b" loading="lazy" alt="">
-        <div class="details">
-          <h2>Export</h2>
-          <p>We export minerals to several countries in the west. These minerals include Zinc, Lead, Charcoal. We have an excellent track record and are trusted by many firms.</p>
-          <button>Contact us</button>
-        </div>
-      </div>
-      <div class="card">
-        <img src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b" loading="lazy" alt="">
-        <div class="details">
-          <h2>Web Design</h2>
-          <p>We partner with several web developers to help our clients build apps as quickly and as cost efficiently as possible. We help build all manner of Applications.</p>
-          <button>Contact us</button>
-        </div>
-      </div>
-      <div class="card">
-        <img src="https://images.unsplash.com/photo-1521791136064-7986c2920216" loading="lazy" alt="">
-        <div class="details">
-          <h2>Contracts</h2>
-          <p>We assist companies and governments to solve their problems quickly. Our trust worthy name makes us the choice contractor for NPA, MTN and many more.</p>
-          <button>Contact us</button>
-        </div>
-      </div>
+      <!-- <Card /> -->
     </div>
   </section>
 </template>
 
 <script>
+import Card from "../Helpers/S-Card.vue"
 export default {
-
+  components: {
+    Card,
+  }
 }
 </script>
 
@@ -46,13 +26,13 @@ export default {
   align-items: center;
   text-align: center;
 
-  ._s_head {
+  h2 {
     font-size: 36px;
     font-weight: 500;
     padding: 2rem 0;
   }
 
-  ._s_desc {
+  p {
     width: 600px;
     font-size: 16px;
     line-height: 1.45;
@@ -63,51 +43,26 @@ export default {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1rem;
+  }
 
-    @media screen and (max-width: $medium) {
-      grid-template-columns: repeat(2, 1fr);
+  @media screen and (max-width: $medium) {
+    padding: 1rem;
+    display: block;
+
+    h2 {
+      font-weight: 400;
+      font-size: 28px;
+      padding: 1rem 0;
     }
 
-    @media screen and (max-width: $small) {
+    p {
+      width: 100%;
+      line-height: normal;
+      padding: 1rem 0;
+    }
+
+    .content {
       display: block;
-    }
-
-    .card {
-      width: 400px;
-      height: 300px;
-
-      img {
-        width: 400px;
-        height: 300px;
-        object-fit: contain;
-      }
-
-      .details {
-        padding: 0.5rem 0;
-        text-align: center;
-
-        h2 {
-          font-size: 32px;
-          font-weight: 500;
-        }
-
-        p {
-          font-size: 14px;
-          padding: 1.9rem 0;
-          line-height: 1.7;
-        }
-
-        button {
-          padding: 12px 16px;
-          background: $primary;
-          color: $light;
-          cursor: pointer;
-          border: none;
-          width: fit-content;
-          height: fit-content;
-          border-radius: 4px;
-        }
-      }
     }
   }
 }

@@ -55,6 +55,7 @@
     background-image: none;
     padding-bottom: 2rem;
     height: fit-content;
+    text-align: center;
     display: block;
 
     h1 {
@@ -66,6 +67,10 @@
       width: 100%;
       line-height: normal;
       font-size: 16px;
+    }
+
+    a {
+      margin: auto;
     }
   }
 }
