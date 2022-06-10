@@ -57,13 +57,14 @@ export default {
 
     h2 {
       font-weight: 400;
-      font-size: 28px;
+      font-size: 36px;
       padding: 1rem 0;
     }
 
     p {
       width: 100%;
-      line-height: normal;
+      line-height: 1.85;
+      font-size: 18px;
       padding: 1rem 0;
     }
   }

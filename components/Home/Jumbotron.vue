@@ -58,7 +58,7 @@
 
     h1 {
       font-weight: 400;
-      font-size: 34px;
+      font-size: 36px;
     }
 
     p {
