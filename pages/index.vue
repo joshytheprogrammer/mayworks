@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <Jumbotron />
-    <!-- <Services /> -->
+    <Services />
   </div>
 </template>
 

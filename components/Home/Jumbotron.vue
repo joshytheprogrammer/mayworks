@@ -6,12 +6,6 @@
   </div>
 </template>
 
-<script>
-export default {
-
-}
-</script>
-
 <style lang="scss" scoped>
 .jumbotron {
   padding: 1rem;
@@ -73,7 +67,6 @@ export default {
       line-height: normal;
       font-size: 16px;
     }
-    
   }
 }
 </style>
