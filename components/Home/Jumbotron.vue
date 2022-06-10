@@ -54,23 +54,17 @@
   @media screen and (max-width: $medium) {
     background-image: none;
     padding-bottom: 2rem;
-    height: fit-content;
-    text-align: center;
-    display: block;
+    height: 600px;
 
     h1 {
       font-weight: 400;
-      font-size: 30px;
+      font-size: 34px;
     }
 
     p {
       width: 100%;
-      line-height: normal;
+      line-height: 1.85;
       font-size: 16px;
-    }
-
-    a {
-      margin: auto;
     }
   }
 }
