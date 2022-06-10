@@ -64,7 +64,7 @@
     p {
       width: 100%;
       line-height: 1.85;
-      font-size: 16px;
+      font-size: 18px;
     }
   }
 }
