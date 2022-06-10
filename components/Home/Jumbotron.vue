@@ -43,6 +43,8 @@ export default {
   }
 
   a {
+    display: block;
+    width: fit-content;
     background: $light;
     color: $primary;
     padding: 12px 16px;
@@ -56,7 +58,22 @@ export default {
   }
 
   @media screen and (max-width: $medium) {
-    max-height: 800px;
+    background-image: none;
+    padding-bottom: 2rem;
+    height: fit-content;
+    display: block;
+
+    h1 {
+      font-weight: 400;
+      font-size: 30px;
+    }
+
+    p {
+      width: 100%;
+      line-height: normal;
+      font-size: 16px;
+    }
+    
   }
 }
 </style>
