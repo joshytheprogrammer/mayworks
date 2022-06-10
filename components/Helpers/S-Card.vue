@@ -37,8 +37,8 @@ export default {
 
   img {
     width: 100%;
-    height: 300px;
-    object-fit: contain;
+    height: 400px;
+    object-fit: cover;
   }
 
   .details {
@@ -46,12 +46,12 @@ export default {
 
     h2 {
       font-size: 36px;
-      font-weight: 500;
+      font-weight: 400;
     }
 
     p {
       font-size: 16px;
-      line-height: 1.45;
+      line-height: 1.85;
       padding: 1rem 0;
     }
 
@@ -61,8 +61,7 @@ export default {
       color: $light;
       cursor: pointer;
       border: none;
-      width: fit-content;
-      height: fit-content;
+      font-size: inherit;
       border-radius: 4px;
     }
   }
