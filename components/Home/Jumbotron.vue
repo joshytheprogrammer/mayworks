@@ -5,7 +5,7 @@
     <NuxtLink to="/quote">Get Quote</NuxtLink>
   </div>
 </template>
-
+// Fix the way this looks on mobile. Specifically the height
 <style lang="scss" scoped>
 .jumbotron {
   padding: 1rem;

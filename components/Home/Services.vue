@@ -3,7 +3,7 @@
     <h2>Quality, not quantity</h2>
     <p>We have made quality our habit. We provide a wide range of services, but they can all be summed up into this one phrase, "HELP YOU".  We strive to satisfy your business needs. Here are just a few things we do:</p>
     <div class="content">
-      <!-- <Card /> -->
+      <Card />
     </div>
   </section>
 </template>
@@ -45,6 +45,12 @@ export default {
     gap: 1rem;
   }
 
+  @media screen and (max-width: $m-large) {
+    .content {
+      display: block;
+    }
+  }
+
   @media screen and (max-width: $medium) {
     padding: 1rem;
     display: block;
@@ -59,10 +65,6 @@ export default {
       width: 100%;
       line-height: normal;
       padding: 1rem 0;
-    }
-
-    .content {
-      display: block;
     }
   }
 }

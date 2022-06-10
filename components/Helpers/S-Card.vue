@@ -34,6 +34,7 @@ export default {
 <style lang="scss" scoped>
 .card {
   width: 100%;
+
   img {
     width: 100%;
     height: 300px;
@@ -42,17 +43,16 @@ export default {
 
   .details {
     padding: 0.5rem 0;
-    text-align: center;
 
     h2 {
-      font-size: 32px;
+      font-size: 36px;
       font-weight: 500;
     }
 
     p {
-      font-size: 14px;
-      padding: 1.9rem 0;
-      line-height: 1.7;
+      font-size: 16px;
+      line-height: 1.45;
+      padding: 1rem 0;
     }
 
     button {
