@@ -1,5 +1,5 @@
 <template>
-  <section class="gallery">
+  <section class="gallery" id="gallery">
     <figure>
       <img src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1200,h=992,fit=crop/mPoyZVg96EI62K0E/joel-filipe-unsplash-A83b6wlplpfyBgkr.jpg" alt="">
     </figure>
