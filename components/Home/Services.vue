@@ -43,7 +43,7 @@ export default {
 
 <style lang="scss" scoped>
 .services {
-  padding: 1rem;
+  margin: 72px 1rem;
 
   display: flex;
   flex-direction: column;

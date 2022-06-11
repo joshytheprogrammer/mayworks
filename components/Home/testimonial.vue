@@ -3,7 +3,7 @@
     <h2>Here's what our clients say</h2>
     <div class="content">
       <div class="card">
-        <p class="testimony">"Track IT is a very innovative company with a great vision for future of Nigeria."</p>
+        <p class="testimony">”Every day, they strive to improve their service to the clients by developing the right blend of technology and creativity to make sure every job done is done as efficiently as possible.”</p>
         <h4 class="testifier">-Ikenna Isiadinso</h4>
       </div>
       <div class="card">
@@ -26,7 +26,7 @@ export default {
 
 <style lang="scss" scoped>
 .testimonials {
-  padding: 1rem;
+  margin: 72px 1rem;
 
   display: flex;
   flex-direction: column;
@@ -41,7 +41,7 @@ export default {
 
   .content {
     display: grid;
-    gap: 12px;
+    gap: 1rem;
     grid-template-columns: repeat(3, 1fr);
 
     .card {

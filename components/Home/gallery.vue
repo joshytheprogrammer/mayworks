@@ -20,8 +20,7 @@ export default {
 
 <style lang="scss" scoped>
 .gallery {
-  margin: 2rem 0;
-  padding: 1rem;
+  margin: 72px 1rem;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1rem;
@@ -42,6 +41,7 @@ export default {
 
   @media screen and (max-width: $medium) {
     display: block;
+    
     figure {
       margin: 1rem 0;
     }
