@@ -59,7 +59,7 @@ export default {
   p {
     width: 600px;
     font-size: 16px;
-    line-height: 1.45;
+    line-height: 1.85;
     padding: 1rem 0;
   }
 

@@ -9,7 +9,7 @@
 <style lang="scss" scoped>
 .jumbotron {
   padding: 1rem;
-  background-image: url("https://images.unsplash.com/photo-1617952739760-1dcae19a1d93");
+  background-image: url("https://images.unsplash.com/photo-1617952739760-1dcae19a1d93?auto=format&fit=crop&w=1700&q=80");
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-color: $dark;
@@ -52,7 +52,7 @@
   }
 
   @media screen and (max-width: $medium) {
-    background-image: none;
+    background-image: url('https://images.unsplash.com/photo-1617952739760-1dcae19a1d93?auto=format&fit=crop&w=1200&q=80');
     padding-bottom: 2rem;
     height: 600px;
 
