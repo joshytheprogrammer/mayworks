@@ -71,7 +71,7 @@ export default {
 
   @media screen and (max-width: $m-large) {
     .content {
-      display: block;
+      grid-template-columns: repeat(2, 1fr);
       margin: 1rem 0;
     }
   }
@@ -79,6 +79,10 @@ export default {
   @media screen and (max-width: $medium) {
     padding: 1rem;
     display: block;
+
+    .content {
+      display: block;
+    }
 
     h2 {
       font-weight: 400;
