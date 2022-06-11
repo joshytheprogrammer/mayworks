@@ -1,11 +1,11 @@
 <template>
-  <div class="jumbotron">
+  <section class="jumbotron">
     <h1>We are committed to <br> helping you in every way.</h1>
     <p>We execute contracts, develop websites, grow brand names, export goods and so much more. Just reach out, we can find something for you.</p>
     <NuxtLink to="/quote">Get Quote</NuxtLink>
-  </div>
+  </section>
 </template>
-// Fix the way this looks on mobile. Specifically the height
+
 <style lang="scss" scoped>
 .jumbotron {
   padding: 1rem;
