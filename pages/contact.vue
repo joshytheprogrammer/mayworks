@@ -46,6 +46,7 @@
 
       .form-control {
         display: block;
+        width: 480px;
         height: 48px;
         background: $grey;
         color: $dark;
@@ -88,6 +89,21 @@
         &:disabled {
           cursor: not-allowed;
           opacity: .6;
+        }
+      }
+    }
+  }
+
+  @media screen and (max-width: $medium) {
+    form {
+      margin: 0;
+      h1 {
+        text-align: left;
+      }
+
+      .form-group {
+        .form-control {
+          width: 100%;
         }
       }
     }
