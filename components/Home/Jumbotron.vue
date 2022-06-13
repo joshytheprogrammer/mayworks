@@ -2,7 +2,7 @@
   <section class="jumbotron">
     <h1>We are committed to <br> helping you in every way.</h1>
     <p>We execute contracts, develop websites, grow brand names, export goods and so much more. Just reach out, we can find something for you.</p>
-    <NuxtLink to="/quote">Get Quote</NuxtLink>
+    <a href="mailto:kingsleyn24@yahoo.com">Get Quote</a>
   </section>
 </template>
 
