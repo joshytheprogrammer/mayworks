@@ -1,8 +1,5 @@
 <template>
   <div class="about">
-    <div class="map">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.5608281938075!2d3.3885197150029303!3d6.4503838257979895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b8b1073ccdd79%3A0xb77c5f8bd50972a0!2s1%20Joseph%20Street%2C%20Lagos%20Island%20102273%2C%20Lagos!5e0!3m2!1sen!2sng!4v1654943829318!5m2!1sen!2sng" width="100%" height="650" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </div>
     <form>
       <h1>Talk to us</h1>
       <div class="form-group">
@@ -11,6 +8,9 @@
         <input class="btn" type="submit" value="Submit">
       </div>
     </form>
+    <div class="map">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.5608281938075!2d3.3885197150029303!3d6.4503838257979895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b8b1073ccdd79%3A0xb77c5f8bd50972a0!2s1%20Joseph%20Street%2C%20Lagos%20Island%20102273%2C%20Lagos!5e0!3m2!1sen!2sng!4v1654943829318!5m2!1sen!2sng" width="100%" height="650" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
   </div>
 </template>
 
@@ -20,15 +20,14 @@
   padding: 1rem;
   width: 100%;
 
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
 
   form {
     margin: 72px auto;
 
     h1 {
-      text-align: center;
       font-size: 36px;
       font-weight: 400;
       padding: 2rem 0;
@@ -95,8 +94,10 @@
   }
 
   @media screen and (max-width: $medium) {
+    display: block;
+
     form {
-      margin: 0;
+      margin-bottom: 72px;
       h1 {
         text-align: left;
       }
