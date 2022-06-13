@@ -5,7 +5,7 @@
       <div class="form-group">
         <label for="email">Email</label>
         <input class="form-control" type="text" name="email" placeholder="We'll reply to you here">
-        <input class="btn" type="submit" value="Submit">
+        <button class="btn" type="submit">Submit</button>
       </div>
     </form>
     <div class="map">
