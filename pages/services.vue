@@ -19,21 +19,27 @@ export default {
       data: [
         {
           id: 0,
-          imgLink: 'https://images.unsplash.com/photo-1592963219838-6045ccbe0563',
+          imgLink: 'https://images.unsplash.com/photo-1598193957011-39b9f2916992?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1080&q=80',
           service: 'Export',
           desc: 'We export minerals to several countries in the west. These minerals include Zinc, Lead, Charcoal. We have an excellent track record and are trusted by many firms.'
         },
         {
           id: 1,
-          imgLink: 'https://images.unsplash.com/photo-1488590528505-98d2b5aba04b',
+          imgLink: 'https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1080&q=80',
           service: 'Web Design',
           desc: 'We partner with several web developers to help our clients build apps as quickly and as cost efficiently as possible. We help build all manner of Applications.'
         },
         {
           id: 2,
-          imgLink: 'https://images.unsplash.com/photo-1521791136064-7986c2920216',
+          imgLink: 'https://images.unsplash.com/photo-1598061349464-e28ba5710d26?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1080&q=80',
           service: 'Contracts',
           desc: 'We assist companies and governments to solve their problems quickly. Our trust worthy name makes us the choice contractor for NPA, MTN and many more.'
+        },
+        {
+          id: 3,
+          imgLink: 'https://images.unsplash.com/photo-1503694978374-8a2fa686963a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1080&q=80',
+          service: 'Printing',
+          desc: 'We assist companies and governments in printing anything and everything they need. This includes T-Shirts, Logos, Banners, Hats, etc'
         },
       ]
     }
