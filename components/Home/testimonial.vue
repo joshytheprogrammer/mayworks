@@ -7,12 +7,12 @@
         <h4 class="testifier">-Ikenna Isiadinso</h4>
       </div>
       <div class="card">
-        <p class="testimony">"Track IT is the best software licensing company to work with and also the best company to get technology skills and certifications that will promote your tech career. The best place to learn is at Track IT."</p>
-        <h4 class="testifier">-Oluwatosin Ajayi</h4>
+        <p class="testimony">"Mayworks partnered with joshytheprogrammer.com to assist clients in building their personal portfolios and they were very happy with the results. Thank you mayworks"</p>
+        <h4 class="testifier">-Nsofor Joshua</h4>
       </div>
       <div class="card">
-        <p class="testimony">"Every day, they strive to improve their service to the clients by developing the right blend of technology and creativity to make sure every job done is done as efficiently as possible."</p>
-        <h4 class="testifier">-Claurice Turner</h4>
+        <p class="testimony">"My company has been partnered with Mayworks for over three years now, Mayworks has assisted us in, Cleaning our Windows (SkyScraper), Advertising on Billboards, Installating Computer resources and much more"</p>
+        <h4 class="testifier">-Aghaduno Okeychukwu</h4>
       </div>
     </div>
   </section>
