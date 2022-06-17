@@ -1,13 +1,13 @@
 <template>
   <section class="gallery" id="gallery">
     <figure>
-      <img src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1200,h=992,fit=crop/mPoyZVg96EI62K0E/joel-filipe-unsplash-A83b6wlplpfyBgkr.jpg" alt="">
+      <img src="../../assets/images/zinc.jpg" alt="zinc">
     </figure>
     <figure>
-      <img src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1200,h=1120,fit=crop/mPoyZVg96EI62K0E/Mask-Group-Yr0xLlkMbXcjQxwK.png" alt="">
+      <img src="../../assets/images/lead.jpg" alt="lead">
     </figure>
     <figure>
-      <img src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1200,h=1376,fit=crop/mPoyZVg96EI62K0E/leo-manjarrez-unsplash-YZ4enVpOejhVw2aW.jpg" alt="">
+      <img src="../../assets/images/charcoal.jpg" alt="charcoal">
     </figure>
   </section>
 </template>
@@ -27,6 +27,7 @@ export default {
 
   figure {
     height: 400px;
+
     img {
       width: 100%;
       height: 100%;
