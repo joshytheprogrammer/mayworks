@@ -2,7 +2,7 @@
   <div class="about">
     <div class="content">
       <div class="img">
-        <img src="https://images.unsplash.com/photo-1618470554490-6fee45d9c2ac?auto=format&fit=crop&w=1200&h=992" alt="">
+        <img src="https://images.unsplash.com/photo-1462206092226-f46025ffe607?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1080&q=80" alt="">
       </div>
       <div class="details">
         <h1>The company Mayworks</h1>
