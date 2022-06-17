@@ -49,6 +49,10 @@ export default {
       border: none;
       font-size: inherit;
       border-radius: 4px;
+
+      &:hover {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.4) 0 0);
+      }
     }
   }
 
