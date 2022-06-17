@@ -30,7 +30,7 @@
   }
 
   p { 
-    width: 380px;
+    width: 500px;
     line-height: 1.875;
     font-size: 18px;
     padding: 1rem 0;
