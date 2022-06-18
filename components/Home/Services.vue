@@ -1,7 +1,7 @@
 <template>
   <section class="services" id="services">
     <h2>Quality and quantity</h2>
-    <p>You can have both. We have made quality our habit. We provide a wide range of services, but they can all be summed up into this one phrase, "HELP YOU".  We strive to satisfy your business needs. Here are just a few things we do:</p>
+    <p>You can have both. We have made quality our habit. We provide a wide range of services, but they can all be summed up into this one phrase, "Serve you". We strive to satisfy your business needs. Here are just a few things we do:</p>
     <div class="content">
       <Card v-for="item in data" :key="item.id" :data="item"  />
     </div>
