@@ -12,7 +12,7 @@
       </div>
       <div class="card">
         <p class="testimony">"My company has been partnered with Mayworks for over three years now, Mayworks has assisted us in, Cleaning our Windows (SkyScraper), Advertising on Billboards, Installating Computer resources and much more"</p>
-        <h4 class="testifier">-Aghaduno Okeychukwu</h4>
+        <h4 class="testifier">-Aghaduno Okechukwu</h4>
       </div>
     </div>
   </section>
