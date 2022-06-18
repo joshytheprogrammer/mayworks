@@ -8,7 +8,7 @@
         </div>
         <div class="info">
           <h4>Address</h4>
-          <p>1 Joseph Street, Lagos Island 102273</p>
+          <p>1 Joseph Street, Lagos Island 102273 (Head Office).</p>
           <h4>Hours</h4>
           <p>Monday - Friday</p>
           <p>8am - 5pm</p>
