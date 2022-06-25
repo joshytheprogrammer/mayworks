@@ -4,7 +4,7 @@
     <div class="details">
       <h2>{{data.service}}</h2>
       <p>{{data.desc}}</p>
-      <button>Contact us</button>
+      <a href="mailto:kingsleyn24@yahoo.com">Contact us</a>
       <!-- Be sure to turn button into a link that leads to mayworks email -->
     </div>
   </div>
@@ -41,9 +41,10 @@ export default {
       padding: 1rem 0;
     }
 
-    button {
+    a {
       padding: 12px 16px;
       background: $primary;
+      text-decoration: none;
       color: $light;
       cursor: pointer;
       border: none;
