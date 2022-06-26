@@ -12,12 +12,6 @@
   </section>
 </template>
 
-<script>
-export default {
-
-}
-</script>
-
 <style lang="scss" scoped>
 .gallery {
   margin: 72px 1rem;
