@@ -18,12 +18,6 @@
   </section>
 </template>
 
-<script>
-export default {
-
-}
-</script>
-
 <style lang="scss" scoped>
 .testimonials {
   margin: 72px 1rem;
