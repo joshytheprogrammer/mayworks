@@ -13,7 +13,6 @@
         <div class="mobile" v-if="isMobile">
           <XCircleIcon v-if="isOpen" @click="toggleMenu" />
           <MenuIcon v-else @click="toggleMenu" />
-         
         </div>
         <!-- For Desktops -->
         <div class="desktop" v-else>
@@ -52,7 +51,6 @@ export default {
   methods: {
     checkMobile() {
       window.innerWidth > 768 ? this.isMobile = false : this.isMobile = true
-      // console.log(this.isMobile)
     },
     toggleMenu(){
       this.isOpen = !this.isOpen
