@@ -42,6 +42,7 @@ export default {
     }
 
     a {
+      display: inline-block;
       padding: 12px 16px;
       background: $primary;
       text-decoration: none;
